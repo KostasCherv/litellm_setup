@@ -9,6 +9,7 @@ __pycache__/
 .Python
 venv/
 .venv/
+.python-version
 
 # IDE
 .idea/
@@ -19,3 +20,4 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+serve.sh
