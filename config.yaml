@@ -1,5 +1,7 @@
 general_settings:
   master_key: sk-local-admin
+  store_model_in_db: true
+  store_prompts_in_spend_logs: true
 
 model_list:
   # Groq models
