@@ -77,6 +77,10 @@ OPENAI_API_BASE=https://api.openai.com/v1
 
 # Ollama (running locally - use host.docker.internal for Docker)
 OLLAMA_BASE_URL=http://host.docker.internal:11434
+
+# ZAI (get key from https://z.ai/ or ZAI developer portal)
+ZAI_API_KEY=your_zai_api_key
+ZAI_API_BASE=https://api.z.ai/api/paas/v4/
 ```
 
 ### config.yaml
@@ -101,6 +105,7 @@ This setup includes models from 3 providers as a suggestion - feel free to add o
 | **Groq** | `groq-llama-3.3-70b-versatile`, `moonshotai/kimi-k2-instruct-0905`, `openai-oss-120b` |
 | **OpenAI** | `openai-04mini` |
 | **Ollama** | `gpt-oss`, `gemma3`, `qwen3-coder`, `lfm2.5-thinking`, `rnj-1`, `deepseek-r1` |
+| **ZAI** | `glm-4.7-flash`, `glm-4.5-flash` |
 
 ## Usage
 
