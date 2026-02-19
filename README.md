@@ -81,6 +81,10 @@ OLLAMA_BASE_URL=http://host.docker.internal:11434
 # ZAI (get key from https://z.ai/ or ZAI developer portal)
 ZAI_API_KEY=your_zai_api_key
 ZAI_API_BASE=https://api.z.ai/api/paas/v4/
+
+# OpenCode (free models - get key from https://opencode.ai/)
+OPENCODE_API_KEY=your_opencode_api_key
+OPENCODE_API_BASE=https://opencode.ai/zen/v1/
 ```
 
 ### config.yaml
@@ -106,6 +110,7 @@ This setup includes models from 3 providers as a suggestion - feel free to add o
 | **OpenAI** | `openai-04mini` |
 | **Ollama** | `gpt-oss`, `gemma3`, `qwen3-coder`, `lfm2.5-thinking`, `rnj-1`, `deepseek-r1` |
 | **ZAI** | `glm-4.7-flash`, `glm-4.5-flash` |
+| **OpenCode** | `glm-5-free`, `minimax-m2.5-free`, `kimi-k2.5-free` |
 
 ## Usage
 
