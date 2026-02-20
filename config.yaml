@@ -76,19 +76,19 @@ model_list:
   # OpenCode free models
   - model_name: glm-5-free
     litellm_params:
-      model: openai/glm-5-free
+      model: opencode/glm-5-free
       api_key: os.environ/OPENCODE_API_KEY
       base_url: os.environ/OPENCODE_API_BASE
 
   - model_name: minimax-m2.5-free
     litellm_params:
-      model: openai/minimax-m2.5-free
+      model: opencode/minimax-m2.5-free
       api_key: os.environ/OPENCODE_API_KEY
       base_url: os.environ/OPENCODE_API_BASE
 
   - model_name: kimi-k2.5-free
     litellm_params:
-      model: openai/kimi-k2.5-free
+      model: opencode/kimi-k2.5-free
       api_key: os.environ/OPENCODE_API_KEY
       base_url: os.environ/OPENCODE_API_BASE
 
