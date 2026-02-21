@@ -73,6 +73,12 @@ model_list:
       api_key: os.environ/ZAI_API_KEY
       base_url: os.environ/ZAI_API_BASE
 
+  # Google models
+  - model_name: gemini-3-pro-preview
+    litellm_params:
+      model: gemini/gemini-3-pro-preview
+      api_key: os.environ/GEMINI_API_KEY
+
   # OpenCode free models
   - model_name: glm-5-free
     litellm_params:
