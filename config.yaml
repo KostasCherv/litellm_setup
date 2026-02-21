@@ -32,32 +32,32 @@ model_list:
   # ollama models
   - model_name: gpt-oss
     litellm_params:
-      model: ollama/gpt-oss:20b
+      model: openai/gpt-oss:20b
       base_url: os.environ/OLLAMA_BASE_URL
 
   - model_name: gemma3
     litellm_params:
-      model: ollama/gemma3:4b
+      model: openai/gemma3:4b
       base_url: os.environ/OLLAMA_BASE_URL
 
   - model_name: qwen3-coder
     litellm_params:
-      model: ollama/qwen3-coder:latest
+      model: openai/qwen3-coder:latest
       base_url: os.environ/OLLAMA_BASE_URL
 
   - model_name: lfm2.5-thinking
     litellm_params:
-      model: ollama/lfm2.5-thinking:1.2b
+      model: openai/lfm2.5-thinking:1.2b
       base_url: os.environ/OLLAMA_BASE_URL
 
   - model_name: rnj-1
     litellm_params:
-      model: ollama/rnj-1:latest
+      model: openai/rnj-1:latest
       base_url: os.environ/OLLAMA_BASE_URL
 
   - model_name: deepseek-r1
     litellm_params:
-      model: ollama/deepseek-r1:8b
+      model: openai/deepseek-r1:8b
       base_url: os.environ/OLLAMA_BASE_URL
 
   # ZAI models
@@ -76,19 +76,19 @@ model_list:
   # OpenCode free models
   - model_name: glm-5-free
     litellm_params:
-      model: opencode/glm-5-free
+      model: openai/glm-5-free
       api_key: os.environ/OPENCODE_API_KEY
       base_url: os.environ/OPENCODE_API_BASE
 
   - model_name: minimax-m2.5-free
     litellm_params:
-      model: opencode/minimax-m2.5-free
+      model: openai/minimax-m2.5-free
       api_key: os.environ/OPENCODE_API_KEY
       base_url: os.environ/OPENCODE_API_BASE
 
   - model_name: kimi-k2.5-free
     litellm_params:
-      model: opencode/kimi-k2.5-free
+      model: openai/kimi-k2.5-free
       api_key: os.environ/OPENCODE_API_KEY
       base_url: os.environ/OPENCODE_API_BASE
 
